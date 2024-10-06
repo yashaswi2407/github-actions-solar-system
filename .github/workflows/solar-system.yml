@@ -72,7 +72,7 @@ jobs:
               retention-days: 5
         
     docker:
-        permission:
+        permissions:
           packages: write
         name: docker
         runs-on: ubuntu-latest
